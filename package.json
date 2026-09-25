@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-lyrics-ovh",
-  "version": "0.1.0",
-  "description": "Song lyrics lookup via lyrics.ovh",
+  "version": "0.1.1",
+  "description": "Lyrics OVH MCP — keyless lyrics lookup.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-lyrics-ovh": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "lyrics-ovh"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-lyrics-ovh"
+    "url": "git+https://github.com/pipeworx-io/mcp-lyrics-ovh.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-55ebdfac8e24232d24ff84b41f5969c871b4c5a946f2f77c191c73c96a424605",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }

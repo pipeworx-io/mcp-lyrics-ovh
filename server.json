@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/lyrics-ovh",
   "title": "Lyrics Ovh",
-  "description": "Song lyrics lookup via lyrics.ovh",
-  "version": "0.1.0",
+  "description": "Lyrics OVH MCP — keyless lyrics lookup.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/lyrics-ovh",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-lyrics-ovh",
