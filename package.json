@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-lyrics-ovh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lyrics OVH MCP — keyless lyrics lookup.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-55ebdfac8e24232d24ff84b41f5969c871b4c5a946f2f77c191c73c96a424605",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-df92082a33ed28c496b46f1a715d15c45ce0611c80c58eae26d406bdfc9bbd3c",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
