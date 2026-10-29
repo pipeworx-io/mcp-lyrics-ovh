@@ -1,0 +1,42 @@
+[
+  {
+    "name": "lyrics",
+    "description": "Exact-name lookup. Returns the lyrics text for an (artist, title) pair.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "artist": {
+          "type": "string",
+          "description": "e.g. \"Coldplay\""
+        },
+        "title": {
+          "type": "string",
+          "description": "e.g. \"Yellow\""
+        }
+      },
+      "required": [
+        "artist",
+        "title"
+      ]
+    }
+  },
+  {
+    "name": "suggest",
+    "description": "Title/artist suggestions for a free-form query (results have track + artist info).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "number",
+          "description": "1-50 (default 10)"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
